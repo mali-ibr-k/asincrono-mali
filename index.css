@@ -140,14 +140,15 @@ button {
 }
 
 .Prints-grid {
-    display: grid;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-rows: repeat(3, 1fr);
-    gap: 1rem;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
 }
 
 .Prints-img {
-    background-color: rgb(148, 148, 177);
+  width: 100%;
+  height: auto;
+  display: block;
 }
 
 .Prints-btn {
