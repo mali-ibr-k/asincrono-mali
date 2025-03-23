@@ -220,17 +220,16 @@ button {
         display: none;
     }
 
-    .Prints-article {
+    .Prints-grid {
         grid-template-columns: repeat(2, 1fr);
     }
-
 }
 
 @media(max-width: 600px) {
-
-    .Prints-article {
+    .Prints-grid {
         grid-template-columns: 1fr;
     }
+}
 
     .Footer-wrapper {
         flex-flow: column;
